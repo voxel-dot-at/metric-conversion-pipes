@@ -7,7 +7,7 @@ Inspired by https://github.com/vimalavinisha/angular2-metric-conversion-pipes, A
 Supported TempConversions pipes- C-F, C-K, F-C, F-K, K-F, K-C
 
     C -> Celsius,
-    F -> Fahrenheit ,
+    F -> Fahrenheit
     K -> Kelvin
    
     Example: Celsius To Fahrenheit Conversion: {{temperature | TempConversions:'C-F'}}
