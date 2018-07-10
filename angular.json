@@ -121,6 +121,46 @@
           }
         }
       }
+    },
+    "metric-conversion-pipes": {
+      "root": "projects/metric-conversion-pipes",
+      "sourceRoot": "projects/metric-conversion-pipes/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/metric-conversion-pipes/tsconfig.lib.json",
+            "project": "projects/metric-conversion-pipes/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/metric-conversion-pipes/ng-package.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/metric-conversion-pipes/src/test.ts",
+            "tsConfig": "projects/metric-conversion-pipes/tsconfig.spec.json",
+            "karmaConfig": "projects/metric-conversion-pipes/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/metric-conversion-pipes/tsconfig.lib.json",
+              "projects/metric-conversion-pipes/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "libs"

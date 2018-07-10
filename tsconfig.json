@@ -15,6 +15,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "metric-conversion-pipes": [
+        "dist/metric-conversion-pipes"
+      ],
+      "metric-conversion-pipes/*": [
+        "dist/metric-conversion-pipes/*"
+      ]
+    }
   }
 }
