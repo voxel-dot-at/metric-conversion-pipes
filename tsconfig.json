@@ -22,6 +22,12 @@
       ],
       "metric-conversion-pipes/*": [
         "dist/metric-conversion-pipes/*"
+      ],
+      "a": [
+        "dist/a"
+      ],
+      "a/*": [
+        "dist/a/*"
       ]
     }
   }

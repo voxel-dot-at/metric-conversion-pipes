@@ -163,5 +163,5 @@
       }
     }
   },
-  "defaultProject": "libs"
+  "defaultProject": "metric-conversion-pipes"
 }
