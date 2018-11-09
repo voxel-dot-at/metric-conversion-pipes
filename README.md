@@ -7,14 +7,15 @@ Inspired by https://github.com/vimalavinisha/angular2-metric-conversion-pipes, A
 Supported TempConversions pipes- C-F, C-K, F-C, F-K, K-F, K-C
 
     C -> Celsius,
-    F -> Fahrenheit ,
-    K-> Kelvin
+    F -> Fahrenheit
+    K -> Kelvin
+   
     Example: Celsius To Fahrenheit Conversion: {{temperature | TempConversions:'C-F'}}
 
 Supported Mass/Weight pipes- G-KG, G-LB, G-OZ, KG-G, KG-LB, KG-OZ, LB-G, LB-KG, LB-OZ, OZ-G, OZ-KG,OZ-LB
 
     G -> Gram
-    KG-> KiloGram
+    KG -> KiloGram
     LB -> Pound
     OZ -> Ounce
 
@@ -24,15 +25,15 @@ Supported LengthConversions pipes- FT-CM, FT-M, FT-IN, FT-MI, FT-YD, IN-FT, IN-M
 
     MM -> Milimeter
     CM -> Centimeter
-    M -> Meter
-    IN-> Inches
+    M  -> Meter
+    IN -> Inches
     FT -> Foot(Feet)
     MI -> Mile
     YD -> Yard
 
     Example: LengthConversions from CM to Inches: {{length | lengthConversions:'CM-IN'}
 
-Removed from the original version are the decimal length and the unit name. The values input values and the output are both number. That way we can format the the value with the next pipe.
+Removed from the original version are the decimal length and the unit name. The values input and the output are both number. That way we can format the value with the next pipe.
 
 To build, download the Angular workspace and run "ng build metric-conversion-pipes --prod && copyfiles README.md dist/metric-conversion-pipes/" in workspace folder.
 copyfile -> https://www.npmjs.com/package/copyfiles
