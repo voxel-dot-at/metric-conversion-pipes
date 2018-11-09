@@ -1,6 +1,6 @@
 {
   "name": "metric-conversion-pipes",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Angel Merino-Sastre",
   "description": "Useful angular Unit conversion pipes",
   "license": "MIT",
@@ -9,19 +9,19 @@
     "url": "https://github.com/angelmerino/metric-conversion-pipes.git"
   },
   "peerDependencies": {
-    "@angular/common": "^5.0.0 || ^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^5.0.0 || ^6.0.0-rc.0 || ^6.0.0"
+    "@angular/common": "^7.0.3",
+    "@angular/core": "^7.0.3"
   },
   "devDependencies": {
-    "@angular/cli": "~6.0.8",
-    "@angular/common": "^6.0.3",
-    "@angular/compiler-cli": "^6.0.3",
-    "@angular/core": "^6.0.7",
-    "@types/node": "~8.9.4",
-    "rxjs": "^6.2.1",
-    "ts-node": "~5.0.1",
-    "tslib": "^1.7.1",
-    "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
+    "@angular/cli": "~7.0.5",
+    "@angular/common": "^7.0.3",
+    "@angular/compiler-cli": "^7.0.3",
+    "@angular/core": "^7.0.3",
+    "@types/node": "~10.12.3",
+    "rxjs": "^6.3.3",
+    "ts-node": "~7.0.1",
+    "tslib": "^1.9.3",
+    "tslint": "~5.11.0",
+    "typescript": "~3.1.6"
   }
 }
