@@ -1,6 +1,6 @@
 {
   "name": "metric-conversion-pipes",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "author": "Angel Merino-Sastre",
   "description": "Useful angular Unit conversion pipes",
   "license": "MIT",
@@ -22,6 +22,8 @@
     "ts-node": "~8.2.0",
     "tslib": "^1.9.3",
     "tslint": "~5.17.0",
+    "zone.js": "~0.9.1",
+    "@angular/compiler": "~8.0.0",
     "typescript": "~3.4.5"
   }
 }
