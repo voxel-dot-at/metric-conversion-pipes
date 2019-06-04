@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angelmerino/metric-conversion-pipes.git"
+    "url": "https://github.com/voxel-dot-at/metric-conversion-pipes.git"
   },
   "peerDependencies": {
     "@angular/common": "^8.0.0",
