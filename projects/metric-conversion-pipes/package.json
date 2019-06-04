@@ -9,19 +9,19 @@
     "url": "https://github.com/angelmerino/metric-conversion-pipes.git"
   },
   "peerDependencies": {
-    "@angular/common": "^7.2.15",
-    "@angular/core": "^7.2.15"
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
   },
   "devDependencies": {
-    "@angular/cli": "~7.0.7",
-    "@angular/common": "^7.2.15",
-    "@angular/compiler-cli": "^7.2.15",
-    "@angular/core": "^7.2.15",
+    "@angular/cli": "~8.0.1",
+    "@angular/common": "^8.0.0",
+    "@angular/compiler-cli": "^8.0.0",
+    "@angular/core": "^8.0.0",
     "@types/node": "~10.12.30",
-    "rxjs": "^6.3.3",
-    "ts-node": "~7.0.1",
+    "rxjs": "^6.5.2",
+    "ts-node": "~8.2.0",
     "tslib": "^1.9.3",
-    "tslint": "~5.11.0",
-    "typescript": "~3.1.6"
+    "tslint": "~5.17.0",
+    "typescript": "~3.4.5"
   }
 }
