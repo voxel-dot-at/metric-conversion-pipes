@@ -1,6 +1,6 @@
 {
   "name": "metric-conversion-pipes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Angel Merino-Sastre",
   "description": "Useful angular Unit conversion pipes",
   "license": "MIT",
