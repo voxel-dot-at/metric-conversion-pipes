@@ -13,7 +13,7 @@
     "@angular/core": "^8.0.0"
   },
   "devDependencies": {
-    "@angular/cli": "~8.0.1",
+    "@angular/cli": "~15.1.4",
     "@angular/common": "^8.0.0",
     "@angular/compiler-cli": "^8.0.0",
     "@angular/core": "^8.0.0",
