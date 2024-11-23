@@ -15,7 +15,7 @@
   "devDependencies": {
     "@angular/cli": "~8.0.1",
     "@angular/common": "^8.0.0",
-    "@angular/compiler-cli": "^8.0.0",
+    "@angular/compiler-cli": "^19.0.0",
     "@angular/core": "^8.0.0",
     "@types/node": "~10.12.30",
     "rxjs": "^6.5.2",
